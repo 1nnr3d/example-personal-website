@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-image: url("images/pexels-juan-pablo-serrano-arenas-1242348.jpg");
+  background-size: cover;
+}
+
+header {
+  border: 3px groove #D9D9D9;
+  border-radius: 10px;
+  width: 1050px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+header .title {
+  border: 2px groove transparent;
+  border-left: 2px groove #FFFFFF;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: 2px groove #FFFFFF;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: auto;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+}
+
+article {
+  border: 3px groove #D9D9D9;
+  border-radius: 20px;
+  height: 1200px;
+  width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+article aside {
+  border-left: 3px groove #D9D9D9;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  float: right;
+  width: 170px;
+  height: 1200px;
+}
+
+article aside h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  border-bottom: 2px groove white;
+  display: block;
+  width: 60px;
+  font-family: 'Questrial', sans-serif;
+}
+
+article aside a {
+  list-style-type: none;
+  text-align: center;
+  border: 2px groove transparent;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 60px;
+  display: block;
+}
+
+article aside a i {
+  margin-top: 18px;
+  color: black;
+  font-size: 25px;
+}
+
+article aside a:hover {
+  -webkit-transition: border 0.5s, background-color 0.5s, color 0.5s;
+  transition: border 0.5s, background-color 0.5s, color 0.5s;
+  border: 2px groove white;
+  background-color: black;
+}
+
+article aside a:hover i {
+  color: white;
+}
+
+article aside a:active i {
+  color: #dbdbdb;
+}
+
+footer {
+  border: 3px groove #cee5f2;
+  border-radius: 10px;
+  width: 1050px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 22px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.267);
+}
+
+footer div p:first-child {
+  margin-top: 13px;
+  opacity: 0.8;
+  display: inline-block;
+  -webkit-transition: border 1s;
+  transition: border 1s;
+}
+
+footer div p:nth-child(2) {
+  border-bottom: 2px groove white;
+  width: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #272727;
+  border-left: 2px groove white;
+  border-right: 2px groove white;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #353535;
+}
+
+#bodyBox {
+  border: 5px groove transparent;
+  border-radius: 20px;
+  background-color: #353535;
+  max-width: 1100px;
+  height: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 20px 5px #5a5a5a;
+          box-shadow: 0px 0px 20px 5px #5a5a5a;
+}
+
+#content p {
+  margin-top: 80px;
+  margin-left: 23.5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  text-align: center;
+  font-size: 14px;
+  width: 390px;
+  display: inline-block;
+  border-left: 2px groove white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right: 2px groove white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#content span {
+  display: inline-block;
+  margin-left: 25%;
+  margin-top: 90px;
+  padding-bottom: 5px;
+  font-family: "Questrial", sans-serif;
+  font-size: 18px;
+  border-bottom: 2px groove white;
+}
+
+.logoBox {
+  border: 2px groove transparent;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin-left: 400px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.logoBox .logo {
+  width: 100px;
+}
